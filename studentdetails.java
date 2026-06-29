@@ -22,7 +22,7 @@ public class studentdetails {
         char studentFee=sc.next().charAt(0);
 
         System.out.println("Enter student grade:");
-        char studentGrade=sc.varChar(3);
+        char studentGrade=sc.varCharAt(0);
 
         //display data
 

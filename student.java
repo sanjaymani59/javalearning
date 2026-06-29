@@ -5,7 +5,7 @@ public class student{
 
     void input(){
 
-        Scanner sc=new  Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter roll number:");
         roll=sc.nextInt();
         sc.nextLine();
