@@ -20,7 +20,7 @@ class son implements father {
         ob.call();
         ob.talk();
     }
-}  ff
+}  
 
 
   
