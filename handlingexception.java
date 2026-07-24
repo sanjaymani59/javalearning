@@ -40,3 +40,5 @@ public static void main(String[] args) {
         
     }
 }
+/* most time taken to me to soleve but there is no mistack in the code mistake in compaling process
+ */
