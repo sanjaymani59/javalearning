@@ -1,4 +1,4 @@
-public class collegeroutin {
+
     public static void main(String[] args) {
         String [] days ={"monday","tuesday","wednesday","thursday","friday"};
 
@@ -11,5 +11,3 @@ public class collegeroutin {
         }
 
     }
-    
-}
