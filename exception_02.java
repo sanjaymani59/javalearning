@@ -1,4 +1,4 @@
- class exception_02 {
+class exception_02 {
 
     static void check(int age){
            if(age<18){
@@ -6,7 +6,7 @@
             throw new ArithmeticException ("invalide value");
         }
     }
-    public static void main(String[] args) {
+public static void main(String[] args) {
         int a=6;
     try{
 
