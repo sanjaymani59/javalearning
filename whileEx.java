@@ -1,9 +1,9 @@
 public class whileEx {
     public static void main(String[] args) {
-
+/* 
 // 14. Reverse a number
 
-int num=12345;
+int num=1234567890;
 int revers=0;
 
 while (num!=0) {
@@ -13,7 +13,32 @@ while (num!=0) {
 
     
 }
-System.out.println(("revers:"+revers));
+System.out.println(("revers:"+revers)); */
+
+   /* 15. Count digits in a number
+   
+   int num=12345;
+    int Count=0;
+
+    while (num!=0) {
+        num=num/10;
+
+        Count++;
+
+    
+}System.out.println("Count:"+Count);
+ */
+
+        int num=12345;
+        int sum=0;
+
+        while (num!=0) {
+            int digit= num%10;
+            sum=sum+digit;
+            num=num/10;
+            
+        }System.out.println("sum"+sum);
+
 
 
 
