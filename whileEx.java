@@ -28,7 +28,7 @@ System.out.println(("revers:"+revers)); */
     
 }System.out.println("Count:"+Count);
  */
-
+/* 
         int num=12345;
         int sum=0;
 
@@ -37,7 +37,7 @@ System.out.println(("revers:"+revers)); */
             sum=sum+digit;
             num=num/10;
             
-        }System.out.println("sum"+sum);
+        }System.out.println("sum"+sum); */
 
 
 
