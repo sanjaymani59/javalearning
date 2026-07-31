@@ -101,7 +101,7 @@ public class for_loop_wE {
             System.out.println("hello for loop concept");
 
         } */
-        for(int i=1;i<=5;i++){
+       /*  for(int i=1;i<=5;i++){
 
             for(int j=1;j<=i;j++){
                 System.out.print("* ");
@@ -110,8 +110,14 @@ public class for_loop_wE {
 
        }
 
+ */
+     /*   for (int i=0;i<=50;i++){
+        System.out.println(i); */
 
 
+       for (int i=50;i>=1;i--){
+            System.out.println(i);
+       }
 
 
 
