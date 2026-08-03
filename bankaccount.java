@@ -18,7 +18,7 @@ class bankaccount {
         ac.balance=5000.45;
 
 
-        ac.deposite(6000);
+        ac.deposite(6000te);
 
 
         ac.display();
