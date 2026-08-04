@@ -2,13 +2,8 @@ public class pratice_if {
     public static void main(String[] args) {
 
 
-        System.out.println("hello");
-
-
-
-
-
-
+        // System.out.println("hello");
+     
 
 
 
@@ -79,9 +74,7 @@ public class pratice_if {
                     }else{
                         System.out.println( "it is zero ");
                     } */
-        }
 
       
-    }
     
 
