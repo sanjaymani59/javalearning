@@ -1,7 +1,27 @@
 public class pratice_if {
     public static void main(String[] args) {
 
-        int a=2024;
+
+        System.out.println("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /*  int a=2024;
 
         if(a%4==0){
             if(a%100==0){
@@ -16,7 +36,7 @@ public class pratice_if {
         }else{
             System.out.println("it is not a leap year");
         }
-
+ */
 
 
 
