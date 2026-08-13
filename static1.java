@@ -8,7 +8,7 @@ public class static1 {
     public static void main(String[] args) {
         static1 s=new static1();
 
-        System.out.println(static1.a+" "+static1.b);
+        System.out.println(static1.a+" threela"+static1.b);
 
     }
     
