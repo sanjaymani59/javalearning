@@ -5,7 +5,7 @@ public class cons {
 
     public cons(String name){
         this.name=name;
-        this.age=128;
+        this.age=128/*  */;
         
     }public cons(String name, int age ){
         this.name=name;
