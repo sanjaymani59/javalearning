@@ -24,7 +24,7 @@ class arraynew3 {
 
 
 
-public class arraynew4 {
+/* public class arraynew4 {
     public static void main(String[] args) {
         int [] a={20,34,55,78,90};
 
@@ -46,7 +46,24 @@ public class arraynew4 {
 
     
 }
+ */
 
+/**
+ * arraynew4
+ */
+public class  findduplicate {
+    public static void main(String[] args) {
+        int [] a={10,20,40,40,50};
+        for (int i=0; i<a.length;i++){
+            for (int j=i+1;j<a.length;i++){
+                if (a[i]==a[j]){
+                    System.out.println("duplicate:" +a[i]);
+                }
+            }
+        }
+    }
 
+    
+}
 
 
