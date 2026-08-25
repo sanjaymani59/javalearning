@@ -8,7 +8,7 @@ public class arraycon {
         System.out.println(num[5]); */
          int sum=0;
         for (int i=0;i<num.length;i++)
-        {ra
+        {
             
             sum =sum+num[i];
 
