@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 class loopcon{
     public static void main(String[] args) {
-        Scanner in =in.Scnn
 
         int [] a =new int[5];
        /*  System.out.println(10);

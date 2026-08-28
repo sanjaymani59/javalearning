@@ -32,20 +32,43 @@ public class arraycon {
     // 8. Find Largest and Smallest
 
 
-    int [] num ={10,20,39,49,56};
-    int Largest =num[0];
-    int Smallest=num[0];
+    // int [] num ={10,20,39,49,56};
+    // int Largest =num[0];
+    // int Smallest=num[0];
 
-    for (int i=1;i<num.length;i++){
-        if(num[i]>Largest){
-            Largest=num[i];
+    // for (int i=1;i<num.length;i++){
+    //     if(num[i]>Largest){
+    //         Largest=num[i];
+
+    //     }
+    //     if(num[i]<Smallest){
+    //         Smallest=num[i];
+    // }
+    // }
+    // System.out.println("largest"+Largest);
+    // System.out.println("smallest"+Smallest);
+
+
+
+    int [] num ={10,20,39,49,56};
+
+    int search=20;
+    boolean found=false;
+
+    for(int i=0;i<num.length;i++){
+        if(num[i]==search){
+            System.out.println("Number is found:"+i);
+            found=true;
+            break;
+        }
+    }
+
+     if(!found){
+        System.out.println("Number is not found");
 
         }
-        if(num[i]<Smallest){
-            Smallest=num[i];
+
     }
-    }
-    System.out.println("largest"+Largest);
-    System.out.println("smallest"+Smallest);
+
 }
-}
+
