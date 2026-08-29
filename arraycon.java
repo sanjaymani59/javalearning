@@ -1,5 +1,34 @@
 public class arraycon {
     public static void main(String[] args) {
+        int [] [] num=
+        {
+            {10,19,19},
+            {38,49,59},
+            {59,64,45}
+        };
+        for (int i=0;i<num.length;i++){
+            for (int j=0;j<num.length;j++){
+                System.out.print(num[i][j]+" ");
+
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //     int [] num={45,50,9,45,35,34};
     //    /* System.out.println(num[4]);
     //     System.out.println(num[3]);
@@ -50,25 +79,29 @@ public class arraycon {
 
 
 
-    int [] num ={10,20,39,49,56};
+    // int [] num ={10,20,39,49,56};
 
-    int search=20;
-    boolean found=false;
+    // int search=20;
+    // boolean found=false;
 
-    for(int i=0;i<num.length;i++){
-        if(num[i]==search){
-            System.out.println("Number is found:"+i);
-            found=true;
-            break;
-        }
+    // for(int i=0;i<num.length;i++){
+    //     if(num[i]==search){
+    //         System.out.println("Number is found:"+i);
+    //         found=true;
+    //         break;
+    //     }
+    // }
+
+    //  if(!found){
+    //     System.out.println("Number is not found");
+
+    //     }
+
+
+
+
+
     }
 
-     if(!found){
-        System.out.println("Number is not found");
-
-        }
-
     }
-
-}
 
