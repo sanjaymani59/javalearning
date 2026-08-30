@@ -1,22 +1,29 @@
 public class arraycon {
     public static void main(String[] args) {
-        int [] [] num=
-        {
-            {10,19,19},
-            {38,49,59},
-            {59,64,45}
-        };
-        for (int i=0;i<num.length;i++){
-            for (int j=0;j<num.length;j++){
-                System.out.print(num[i][j]+" ");
+        // int [] [] num=
+        // {
+        //     {10,19,19},
+        //     {38,49,59},
+        //     {59,64,45}
+        // };
+        // for (int i=0;i<num.length;i++){
+        //     for (int j=0;j<num.length;j++){
+        //         System.out.print(num[i][j]+" ");
 
-            }
-            System.out.println();
+        //     }
+        //     System.out.println();
+        // }
+
+
+        int []  mark= {34,53,34,56};
+        int sum=0;
+
+        for(int i=0;i<mark.length;i++){
+            sum=sum+mark[i];
+            double average = (double)sum/mark.length;
+
+            System.out.println(average);
         }
-
-
-
-
 
 
 
