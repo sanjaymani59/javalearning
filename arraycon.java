@@ -1,5 +1,34 @@
 public class arraycon {
     public static void main(String[] args) {
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // int [] [] num=
         // {
         //     {10,19,19},
@@ -15,15 +44,15 @@ public class arraycon {
         // }
 
 
-        int []  mark= {34,53,34,56};
-        int sum=0;
+        // int []  mark= {34,53,34,56};
+        // int sum=0;
 
-        for(int i=0;i<mark.length;i++){
-            sum=sum+mark[i];
-            double average = (double)sum/mark.length;
+        // for(int i=0;i<mark.length;i++){
+        //     sum=sum+mark[i];
+        //     double average = (double)sum/mark.length;
 
-            System.out.println(average);
-        }
+        //     System.out.println(average);
+        // }
 
 
 
