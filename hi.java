@@ -1,16 +1,37 @@
+import java.util.Scanner;
 
 public class hi {
     public static void main(String[] args) {
-        
-try{
-    int a=10/0;
-}
-catch(ArithmeticException e){
-    System.out.println("numer cant divided by zero");
+        Scanner s =new Scanner(System.in);
+
+        System.out.println(("Enter num:"));
+        int num = s.nextInt();
+
+        if(num%2==0){
+            System.out.println("even");
+        }
+        else{
+            System.out.println("odd");
+        }
+
+        s.close();
+
+
+    }
 }
 
-}
-}
+
+
+
+
+
+        
+// try{
+//     int a=10/0;
+// }
+// catch(ArithmeticException e){
+//     System.out.println("numer cant divided by zero");
+
 
 
 
