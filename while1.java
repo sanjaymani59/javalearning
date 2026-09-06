@@ -1,11 +1,41 @@
+import java.util.ArrayList;
+
 public class while1{
     public static void main(String[] args) {
-        int c=0;
+            int [] num ={3,5,4,2,6,4,6,7,5,4};
 
-        while(c<=3){
-            System.out.println(c);
-            c++;
-        }
+
+            ArrayList<Integer> uniqueList = new ArrayList<>();
+
+            for (int item: num){
+                if(!uniqueList.contains(item)){
+                    uniqueList.add(item);
+                }
+            }
+
+            System.out.println("og");
+
+            for (int n:num) System.out.println(n+" ");
+
+            System.out.println( "" +uniqueList);
+
+
+
+
+
+
+
+
+
+
+
+
+    //     int c=0;
+
+    //     while(c<=3){
+    //         System.out.println(c);
+    //         c++;
+    //     }
     }
     
 }
