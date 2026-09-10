@@ -1,8 +1,41 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class student_01 {
-
     public static void main(String[] args) {
+        
+   
+
+            int num =66;
+            String size;
+
+
+            switch(num){
+
+            case 29:
+                size="small";
+                break;
+
+            case 30:
+                size="mediam";
+                break;
+
+            case 31:
+                size="high";
+                break;
+
+            default:
+               System.err.println("hello");
+
+            }
+        }
+
+
+
+
+
+
+
+/*     public static void main(String[] args) {
         
     ArrayList<String> names=new ArrayList<>();
     names.add("hello");
@@ -14,7 +47,7 @@ public class student_01 {
 
     System.out.println("Arrayname:" + names + str);
 
-    }
+    } */
 
     
 
