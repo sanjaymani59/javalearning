@@ -9,6 +9,12 @@ public class arraycon {
 
 
 
+        int f=49;
+        int s=45;
+
+        int sum=f+s;
+
+        System.out.println(sum);
 
 
 
