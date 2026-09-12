@@ -1,5 +1,26 @@
 public class arraycon {
     public static void main(String[] args) {
+            
+            int num=5;
+            String size;
+
+            switch (num) {
+
+                case 1:
+                    size="small";
+                    break;
+                case 2:
+                    size="mediam";
+                    break;
+                    
+            
+                default:
+                    size="unknown";
+                    break;
+
+        
+            }  System.out.println(size);
+          
 
             
 
@@ -9,13 +30,7 @@ public class arraycon {
 
 
 
-        int f=49;
-        int s=45;
-
-        int sum=f+s;
-
-        System.out.println(sum);
-
+        
 
 
 
@@ -60,6 +75,12 @@ public class arraycon {
         //     System.out.println(average);
         // }
 
+// int f=49;
+//         int s=45;
+
+//         int sum=f+s;
+
+//         System.out.println(sum);
 
 
 
