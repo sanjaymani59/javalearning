@@ -1,7 +1,21 @@
 public class arraycon {
     public static void main(String[] args) {
+
+
+        int sub=59;
+
+        if(sub>58){
+            if(sub==59){
+                System.out.println("exact mark to pass !!!!!!!!");
+            }
+            System.out.println("pass");
+
+        }
+        else{
+            System.out.println("fail next time ");
+        }
             
-            int num=5;
+            /* int num=5;
             String size;
 
             switch (num) {
@@ -20,6 +34,9 @@ public class arraycon {
 
         
             }  System.out.println(size);
+
+
+
           
 
             
@@ -43,7 +60,7 @@ public class arraycon {
 
 
 
-
+ */
 
 
 
