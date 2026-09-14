@@ -1,19 +1,42 @@
 public class arraycon {
     public static void main(String[] args) {
 
+        int [] num={1,2,3,4,5};
 
-        int sub=59;
+        int sum =0;
+        for(Integer i :num){
+            sum +=i;
 
-        if(sub>58){
-            if(sub==59){
-                System.out.println("exact mark to pass !!!!!!!!");
-            }
-            System.out.println("pass");
+            
+           
 
         }
-        else{
-            System.out.println("fail next time ");
-        }
+        System.out.println(sum);
+         
+
+        // for (int i=1;i<=2;i++){
+        //     System.out.println("outer" +i);
+
+        //     for(int j=1;j<=3;j++){
+        //         System.out.println("inner:" +j);
+        //     }
+        // }
+
+        // 2:36
+
+
+        // int sub=59;
+
+        // if(sub>58){
+        //     if(sub==59){
+        //         System.out.println("exact mark to pass !!!!!!!!");
+        //     }
+        //     System.out.println("pass");
+
+        // }
+        // else{
+        //     System.out.println("fail next time ");
+        // }
             
             /* int num=5;
             String size;
