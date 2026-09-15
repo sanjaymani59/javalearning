@@ -1,17 +1,24 @@
 public class arraycon {
     public static void main(String[] args) {
+        String str="welcome";
+            boolean resutl;
 
-        int [] num={1,2,3,4,5};
+            resutl= str instanceof String;
 
-        int sum =0;
-        for(Integer i :num){
-            sum +=i;
+                System.out.println("out:" +resutl);
+
+
+        // int [] num={1,2,3,4,5};
+
+        // int sum =0;
+        // for(Integer i :num){
+        //     sum +=i;
 
             
            
 
-        }
-        System.out.println(sum);
+        // }
+        // System.out.println(sum);
          
 
         // for (int i=1;i<=2;i++){
