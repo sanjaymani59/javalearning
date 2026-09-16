@@ -1,11 +1,63 @@
+
+// import java.util.Scanner;;
 public class arraycon {
     public static void main(String[] args) {
-        String str="welcome";
+        
+    
+
+    int[] []  arr={
+        {12,23,43},
+        {34,54,56}
+        };
+
+        for (int i=0;i<arr.length;i++){
+            for(int j=0;j<arr[i].length;j++){
+                System.out.print(arr[i][j]+ " ");
+            }
+            System.out.println();
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+    /* public static void main(String[] args) {
+        Scanner obj=new Scanner(System.in);
+
+        System.out.print("Enter you name:");
+        String a=obj.nextLine();
+        System.out.print("Enter you age:");
+        int b= obj.nextInt();
+
+
+        System.out.println("Name:" +a);
+        System.out.println("Age:" +b); */
+
+       
+        // System.out.println(a);
+        // System.out.println(b);
+
+
+
+
+
+
+
+
+
+
+       /*  String str="welcome";
             boolean resutl;
 
             resutl= str instanceof String;
 
-                System.out.println("out:" +resutl);
+                System.out.println("out:" +resutl); */
 
 
         // int [] num={1,2,3,4,5};
@@ -211,7 +263,7 @@ public class arraycon {
 
 
 
-    }
-
-    }
+// }
+   
+//     }
 
