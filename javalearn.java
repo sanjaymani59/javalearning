@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/* import java.util.Scanner;
 public class addnum {
     static void add(int a,int b){
         int sum =a+b;
@@ -26,3 +26,22 @@ public class addnum {
     }
     
 }
+ */
+
+// package javalearning.pk2;
+
+import java.util.Date;
+
+public class javalearn {
+	public static void main(String [] args) {
+		int age=30;
+		
+		Date now=new Date();
+		now.getTime();
+		System.out.println(now);
+		
+	}
+	
+
+}
+39;8 https://youtu.be/eIrMbAQSU34?si=yZ_L4nM-m8BTIa7W
