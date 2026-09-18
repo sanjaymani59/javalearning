@@ -30,7 +30,7 @@ public class addnum {
 
 // package javalearning.pk2;
 
-import java.util.Date;
+/* import java.util.Date;
 
 public class javalearn {
 	public static void main(String [] args) {
@@ -43,5 +43,16 @@ public class javalearn {
 	}
 	
 
-}
-39;8 https://youtu.be/eIrMbAQSU34?si=yZ_L4nM-m8BTIa7W
+} */
+// 42;8 https://youtu.be/eIrMbAQSU34?si=yZ_L4nM-m8BTIa7Wko
+
+
+import java.awt.*;
+public class javalearn {
+    public static void main(String[] args) {
+        Point point1=new Point(1,1);
+        Point point2=point1;
+    }
+       
+    
+};
