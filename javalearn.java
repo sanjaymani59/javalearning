@@ -47,12 +47,43 @@ public class javalearn {
 // 42;8 https://youtu.be/eIrMbAQSU34?si=yZ_L4nM-m8BTIa7Wko
 
 
-import java.awt.*;
+/* import java.awt.*;
 public class javalearn {
     public static void main(String[] args) {
         Point point1=new Point(1,1);
         Point point2=point1;
+        point1.x=2;
+        System.out.println(point2);
     }
        
     
-};
+}; */
+
+
+// string 
+
+
+public class javalearn {
+
+    public static void main(String[] args) {
+        String message= "        hello world        ";
+        message.charAt(4);
+        System.out.println(message.startsWith("h"));
+        System.out.println(message);
+        System.out.println(message.length());
+        System.out.println(message.replace("world", "java comeing to clear you "));
+        System.out.println(message.trim());
+
+
+        // String message=new String();
+        // System.out.println("hello world");
+    }
+}
+
+
+
+
+
+/* 
+https://youtu.be/eIrMbAQSU34?si=yZ_L4nM-m8BTIa7Wko
+50;43; */
