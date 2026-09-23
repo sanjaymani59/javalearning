@@ -4,18 +4,28 @@
 
 
 
-   /*  static void   boxvolumn(int lenght,int breadth,int width){
+     static void   boxvolumn(int lenght,int breadth,int width){
         int vol;
         vol=lenght*breadth*width ;
         System.out.println(vol);
         // return vol;
-    }
-    public static void main(String[] args) {
 
-        boxvolumn(10,3,4);
+         boxvolumn(4,5,5);
+        
+
+        }
+
+
+    public static void main(String[] args) {
+        
+
+       
+
+
+        
         // int volume = boxvolumn(10,3,4);
             // System.out.println(volume);
-            // return volume; */
+            // return volume; 
 
     // }
 
