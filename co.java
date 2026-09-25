@@ -342,52 +342,10 @@ public class constructor_01 {
 
     // 12. Private Constructor — Advanced
 
-/* class Test {
+class Test {
     private Test(){
         System.out.println("constructor ");
     }
         
     }
-public class constructor_01{
-    public static void main(String[] args) {
-        
-    }
-} */
-
-// Because the constructor is private, it cannot normally be accessed outside that class.
-
-// This concept is commonly seen in patterns such as the Singleton pattern.
-
-
-
-// Because the constructor is private, it cannot normally be accessed outside that class.
-
-// This concept is commonly seen in patterns such as the Singleton pattern.
-
-class  std{
-    String name;
-    int age;
-    std(String name,int age){
-        this.name=name;
-        this.age=age;
-    }
-
-    std(std other){
-        this.name=other.name;
-        this.age=other.age;
-    }
-    void display(){
-        System.out.println(name+" "+age);
-    }
-    
-}
-
-public class constructor_01{
-    public static void main(String[] args) {
-        std s=new std("sam",5);
-        std s1=new std(s);
-
-        s.display();
-        s1.display();
-    }
-}
+public class constructor_01{}
