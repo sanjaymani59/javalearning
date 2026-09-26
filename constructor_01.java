@@ -364,7 +364,7 @@ public class constructor_01{
 
 // This concept is commonly seen in patterns such as the Singleton pattern.
 
-class  std{
+/* class  std{
     String name;
     int age;
     std(String name,int age){
@@ -390,4 +390,35 @@ public class constructor_01{
         s.display();
         s1.display();
     }
-}
+} */
+
+    // 14. Real-World Example
+
+
+
+/* class Bankaccount {
+        String name;
+        double balance;
+
+        Bankaccount(String name,double balance){
+            this.name=name;
+            this.balance=balance;
+        }
+
+        void display(){
+            System.out.println("Name:"+ name);
+            System.out.println("Balance :"+ balance);
+
+        }
+        
+    }
+
+public class constructor_01 {
+    public static void main(String[] args) {
+
+        Bankaccount account= new Bankaccount("sam",2000);
+
+        account.display();
+    }
+    
+} */
