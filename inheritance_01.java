@@ -26,7 +26,7 @@ public class inheritance_01 {
 
 // Level 2 — Inheriting Variables
 
-class Std {
+/* class Std {
     String name="sam";
     int age =89;    
 }
@@ -42,4 +42,50 @@ public class inheritance_01 {
                 System.out.println(c.course);
         }
     
+}
+ */
+
+// Level 3 — Parent and Child Methods
+
+/* class vehical {
+    void start(){
+        System.out.println("vechical started");
+    }  
+}
+class Car extends vehical {
+    void driver(){
+        System.out.println("Car is Driving");
+    } 
+}
+
+public class inheritance_01 {
+    public static void main(String[] args) {
+        Car c=new Car();
+        c.start();
+        c.driver();
+    }
+    
+} */
+
+
+
+// Level 4 — Constructor + Inheritance
+
+class person{
+    person(){
+        System.out.println("person constructor");
+    }
+}
+class std extends person {
+    std(){
+        System.out.println("Student constructor");
+    }
+}
+
+public class inheritance_01 {
+    public static void main(String[] args) {
+        std s=new std();
+        
+       
+    }
 }
