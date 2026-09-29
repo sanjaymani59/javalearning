@@ -170,7 +170,7 @@ public class inheritance_01 {
 
 // Level 8 — Multilevel Inheritance
 
-class Animal{
+/* class Animal{
     void eat(){
         System.out.println("Animal is eating ");
     }
@@ -196,4 +196,108 @@ public class inheritance_01 {
         p.play();
     }
     
+} */
+
+    // Level 9 — Hierarchical Inheritance
+
+// One parent → multiple children.
+
+/* class Animal{
+    void eat(){
+        System.out.println("Animal eats");
+    }
+}
+
+class Dog extends  Animal{
+    void bark(){
+        System.out.println("Dog barks");
+    }
+}
+
+class Cat extends  Animal{
+    void meow(){
+        System.out.println("cat meows");
+    }
+}
+
+public class inheritance_01 {
+    public static void main(String[] args) {
+        Dog d= new Dog();
+        Cat c=new Cat();
+
+        d.eat();
+        d.bark();
+
+        c.eat();
+        c.meow();
+    }
+    
+} */
+
+// Level 10 — Inheritance + if
+
+// Now combine inheritance with what you already learned.
+
+/* class Person{
+    String name;
+    int age;
+
+}
+
+
+class Student extends Person{
+    void checkAge(){
+        if (age >= 18){
+            System.out.println(name + " is an adult");
+        }
+        else{
+            System.out.println(name + " is not an adult");
+        }
+    }
+}
+
+public class inheritance_01 {
+
+    public static void main(String[] args) {
+        Student s=new Student();
+        s.name="sam";
+        s.age=45;
+
+        s.checkAge();
+    }
+} */
+
+
+    // Level 11 — Inheritance + Constructor
+
+class Employee{
+    String name;
+
+    Employee(String name){
+        this.name=name;
+    }
+}
+
+class Devloper extends Employee{
+    String language;
+
+    Devloper (String name,String language){
+        super(name);
+        this.language=language;
+
+    }
+    void display(){
+        System.out.println("Name:"+ name);
+        System.out.println("language:" + language);
+
+}
+}
+
+
+public class inheritance_01{
+    public static void main(String[] args) {
+        Devloper d = new Devloper("sam", "java");
+
+        d.display();
+    }
 }
