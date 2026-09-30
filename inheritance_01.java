@@ -270,7 +270,7 @@ public class inheritance_01 {
 
     // Level 11 — Inheritance + Constructor
 
-class Employee{
+/* class Employee{
     String name;
 
     Employee(String name){
@@ -300,4 +300,6 @@ public class inheritance_01{
 
         d.display();
     }
-}
+} */
+
+
