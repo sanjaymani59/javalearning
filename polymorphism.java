@@ -140,4 +140,117 @@ public class polymorphism{
 } */
 
 
+// Level 6 — Multiple Child Classes
+
+/* class Animal{
+    void sound(){
+        System.out.println("Animal sound");
+    }
+}
+class Dog extends  Animal{
+    @Override
+    void sound(){
+        System.out.println("Dog bark ");
+    }
+}
+class Cat extends Animal{
+    @Override 
+    void sound(){
+        System.out.println("Cat meows");
+    }
+}
+
+public class polymorphism {
+
+    public static void main(String[] args) {
+        Animal a;
+        a=new Dog();
+        a.sound();
+        a=new Cat();
+        a.sound();
+    }
+} */
+
+
+// Level 7 — Polymorphism with Method Parameter
+
+/* class Animal{
+
+    void sound(){
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends  Animal{
+    @Override 
+    void  sound(){
+        System.out.println("Dog is bark");
+    }
+}
+
+class Cat extends Animal{
+    @Override 
+    void sound(){
+        System.out.println("Cat Mewos");
+    }
+}
+
+
+public  class polymorphism {
+    static void makesound(Animal animal){
+        animal.sound();
+    }
+
+    public static void main(String[] args) {
+        Dog  d= new Dog();
+        Cat c=new Cat();
+
+        makesound(d);
+        makesound(c);
+
+    }
     
+} */
+
+
+// Level 8 — Array + Polymorphism
+
+// Now combine arrays + inheritance + polymorphism.
+
+
+/* class Animal{
+    void sound(){
+        System.out.println("Animal Sound");
+    }
+}
+
+class Dog extends Animal{
+    @Override
+    void sound(){
+        System.out.println("dog bark ");
+    }
+}
+
+class Cat extends Animal{
+    @Override 
+    void sound(){
+        System.out.println("Cat meows");
+    }
+}
+
+public class  polymorphism{
+    public static void main(String[] args) {
+        Animal [] animals ={
+            new Dog(),
+            new Cat(),
+            new Dog()
+        };
+
+        for (int i=0;i<animals.length;i++){
+            animals[i].sound();
+        }
+    }
+} */
+
+// Level 9 — Polymorphism + super
+
