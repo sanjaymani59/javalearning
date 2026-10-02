@@ -254,3 +254,66 @@ public class  polymorphism{
 
 // Level 9 — Polymorphism + super
 
+/* class Animal{
+    void sound(){
+        System.out.println("Animal sound");
+    }
+}
+class Dog extends Animal{
+    void sound(){
+        
+        super.sound();
+        System.out.println("dog barks");
+    }
+}
+class Cat extends Animal{
+    void sound(){
+
+        super.sound();
+        System.out.println("Cat mewos");
+    }
+}
+
+public class polymorphism {
+
+    public static void main(String[] args) {
+        Dog d=new Dog();
+        
+        Cat c=new Cat();
+
+        d.sound();
+        c.sound();
+    }
+} */
+
+
+    // Level 10 — Polymorphism with Abstract Class
+
+abstract class Animal{
+    abstract void sound();
+    }
+class Dog extends  Animal{
+    @Override
+    void sound(){
+        System.out.println("Dog barks");
+    }
+}
+
+class Cat extends Animal{
+    @Override 
+    void sound(){
+        System.out.println("Cat meows");
+    }
+}
+
+public class polymorphism {
+
+    public static void main(String[] args) {
+        Animal a;
+        a=new Dog();
+        a.sound();
+
+        a=new Cat();
+        a.sound();
+    }
+}
