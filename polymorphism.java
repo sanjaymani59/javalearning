@@ -289,7 +289,7 @@ public class polymorphism {
 
     // Level 10 — Polymorphism with Abstract Class
 
-abstract class Animal{
+/* abstract class Animal{
     abstract void sound();
     }
 class Dog extends  Animal{
@@ -316,4 +316,79 @@ public class polymorphism {
         a=new Cat();
         a.sound();
     }
+} */
+
+
+// Level 11 — Interface + Polymorphism
+
+/* interface Payment {
+    void pay();
 }
+
+class UPI implements Payment {
+    public void pay(){
+        System.out.println("Payment using UPI");
+    }
+}
+class Card implements Payment{
+    public void pay(){
+        System.out.println("Payment using card");
+    }
+}
+
+public class polymorphism {
+
+    public static void main(String[] args) {
+        Payment p;
+
+        p=new UPI();
+        p.pay();
+
+        p=new Card();
+        p.pay();
+    }
+} */
+
+// Level 14 — Downcasting
+
+/* class Animal{
+    void eat(){
+        System.out.println("Eating ");
+    }
+}
+class Dog  extends Animal{
+    void bark(){
+        System.out.println("Barking ");
+    }
+}
+
+public  class polymorphism{
+
+    public static void main(String[] args) {
+        Animal a=new Dog();
+        Dog d = (Dog) a;
+        d.bark();
+    }
+} */
+
+// Level 15 — Safe Downcasting with instanceof
+
+
+/* class Animal{
+}
+class Dog extends Animal {
+    void bark(){
+        System.out.println("Dog Bark");
+    }
+}
+
+public class polymorphism{
+    public static void main(String[] args) {
+        Animal a= new Dog();
+
+        if (a instanceof Dog ){
+            Dog d=(Dog) a;
+            d.bark();
+        }
+    }
+} */
