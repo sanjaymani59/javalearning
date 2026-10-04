@@ -1,4 +1,9 @@
 
+
+// One class can get properties and methods from another class.
+
+
+
 // Level 1 — Basic Inheritance
 /* class Animal {
     void eat(){
