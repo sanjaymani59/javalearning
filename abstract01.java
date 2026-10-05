@@ -90,7 +90,7 @@ public class abstraction {
 // Level 5 — Abstract Class Constructor
 // Many beginners think abstract classes cannot have constructors.
 
-abstract class Animal {
+/* abstract class Animal {
     Animal(){
         System.out.println("Animal constructor");
     }
@@ -112,5 +112,61 @@ public class abstraction {
     public static void main(String[] args) {
         Dog d=new Dog();
         d.sound();
+    }
+} */
+
+
+// Level 6 — Multiple Abstract Methods
+
+/* abstract class Shape {
+    abstract void area();
+    abstract void perimeter();
+}
+class Rectangle extends Shape{
+    int length=10;
+    int width=5;
+
+    void area(){
+        System.out.println("Area:"+ (length*width));
+    }
+    void perimeter(){
+        System.out.println("Peremeter:"+ (2*(length+width)));
+    }
+}
+
+public class abstraction {
+
+    public static void main(String[] args) {
+        Rectangle r=new Rectangle();
+        r.area();
+        r.perimeter();
+    }
+} */
+
+
+// Level 7 — Abstraction + Inheritance
+
+abstract class Shape {
+    abstract void area();
+}
+class Rectangle extends Shape{
+    void area(){
+        System.out.println("Rectangal area");
+    }
+}
+class Circle extends Shape{
+    void area(){
+        System.out.println("Circle area ");
+    }
+}
+
+public class abstract01{
+    public static void main(String[] args) {
+        
+    
+    Rectangle r=new Rectangle();
+    r.area();
+    Circle c= new Circle();
+        c.area();
     }
 }
