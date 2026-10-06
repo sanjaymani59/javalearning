@@ -146,7 +146,7 @@ public class abstraction {
 
 // Level 7 — Abstraction + Inheritance
 
-abstract class Shape {
+/* abstract class Shape {
     abstract void area();
 }
 class Rectangle extends Shape{
@@ -168,5 +168,74 @@ public class abstract01{
     r.area();
     Circle c= new Circle();
         c.area();
+    }
+} */
+
+// Level 8 — Abstraction + Polymorphism
+
+/* abstract class Animal{
+    abstract void sound();
+}
+
+class Dog extends Animal{
+    @Override
+    void sound(){
+        System.out.println("Dog Braks");
+    }
+}
+
+class Cat extends Animal{
+    @Override 
+    void sound(){
+        System.out.println("Cat Meows");
+    }
+}
+
+public  class abstract01 {
+
+    public static void main(String[] args) {
+        Animal a;
+
+        a=new Dog();
+        a.sound();
+
+        a=new Cat();
+        a.sound();
+    }
+} */
+
+// Level 9 — Abstract Class + Array
+
+abstract class Animal{
+        abstract void sound();
+}
+class Dog extends Animal{
+    void sound(){
+        System.out.println("dog barks");
+    }
+}
+
+class Cat extends Animal{
+    void sound(){
+        System.out.println("Cat meows");
+    }
+}
+
+
+public class abstract01 {
+
+    public static void main(String[] args) {
+        Animal[] animals={
+
+            new Dog(),
+            new Cat(),
+            new Dog()
+            
+        };
+
+        for(int i=0;i<animals.length;i++){
+            animals[i].sound();
+        }
+
     }
 }
