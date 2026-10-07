@@ -206,7 +206,10 @@ public  class abstract01 {
 
 // Level 9 — Abstract Class + Array
 
-abstract class Animal{
+/* abstract class Animal{
+
+
+
         abstract void sound();
 }
 class Dog extends Animal{
@@ -237,5 +240,58 @@ public class abstract01 {
             animals[i].sound();
         }
 
+    }
+} */
+
+
+// Level 10 — Interface
+
+/* interface Animal{
+    void  sound();
+}
+
+class Dog implements  Animal {
+
+    public void sound(){
+        System.out.println("Dog barks");
+    }
+}
+
+public class abstract01 {
+
+    public static void main(String[] args) {
+        Dog d= new Dog();
+        d.sound();
+    }
+} */
+
+
+// Level 11 — Multiple Interfaces
+
+
+interface Camera{
+    void takePhoto();
+
+}
+
+interface MusicPlayer {
+    void playMusic();
+}
+
+class Smartphone implements Camera,MusicPlayer{
+    public void takePhoto(){
+        System.out.println("taking photo");
+    }
+    public void playMusic(){
+        System.out.println("playing music");
+    }
+}
+
+public class abstract01 {
+
+    public static void main(String[] args) {
+        Smartphone s = new Smartphone();
+        s.takePhoto();
+        s.playMusic();
     }
 }
