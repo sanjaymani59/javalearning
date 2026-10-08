@@ -269,7 +269,7 @@ public class abstract01 {
 // Level 11 — Multiple Interfaces
 
 
-interface Camera{
+/* interface Camera{
     void takePhoto();
 
 }
@@ -293,5 +293,35 @@ public class abstract01 {
         Smartphone s = new Smartphone();
         s.takePhoto();
         s.playMusic();
+    }
+} */
+
+// Level 12 — Interface + Polymorphism
+
+interface Payment{
+    void pay();
+}
+    
+class UPI implements Payment{
+    public void pay(){
+        System.out.println("payment using upi");
+    }
+}
+
+class Card implements  Payment{
+    public void pay(){
+        System.out.println("payint using card");
+    }
+}
+
+public class abstract_01{
+    public static void main(String[] args) {
+        Payment p;
+
+        p=new UPI();
+        p.pay();
+
+        p=new Card();
+        p.pay();
     }
 }
