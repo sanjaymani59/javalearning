@@ -298,7 +298,7 @@ public class abstract01 {
 
 // Level 12 — Interface + Polymorphism
 
-interface Payment{
+/* interface Payment{
     void pay();
 }
     
@@ -324,4 +324,77 @@ public class abstract_01{
         p=new Card();
         p.pay();
     }
+} */
+
+// Level 13 — Default Method in Interface
+
+
+/* interface vechical{
+    void start();
+
+    default void stop(){
+        System.out.println("Vechical stoped");
+    }
 }
+class Car implements vechical{
+    public void start(){
+        System.out.println("Car Stared ");
+    }
+}
+
+public class abstract_01 {
+
+    public static void main(String[] args) {
+        Car c=new Car();
+
+        c.start();
+        c.stop();
+    }
+} */
+
+
+    // Level 14 — Static Method in Interface
+
+/* interface Calculator {
+    static void message(){
+        System.out.println("Calculator interface");
+    }
+}
+public class abstract_01{
+    public static void main(String[] args) {
+        Calculator.message();
+    }
+} */
+
+
+
+// Level 14 — Static Method in Interface
+// Imagine a food delivery application.
+
+
+/* interface Payment{
+    void pay(double amount);
+}
+
+class UPI implements Payment {
+    public void  pay(double amount){
+        System.out.println("paid "+amount+" using UPI");
+    }
+}
+
+class Card implements Payment{
+    public void pay(double amount){
+        System.out.println("paid "+amount+ " using Card");
+    }
+}
+
+public  class abstract_01 {
+
+    public static void main(String[] args) {
+    Payment p =new UPI();
+        p.pay (500);
+    Payment p1=new Card();
+        p1.pay(1000);
+
+    }
+} */
