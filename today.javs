@@ -1,0 +1,4 @@
+function call(){
+      println("hello java");
+      }
+call ()
