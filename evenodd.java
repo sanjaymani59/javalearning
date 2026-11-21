@@ -11,6 +11,8 @@ import java.util.Scanner ;
                 if (number %2==0){
                 System.out.println("even");
             }
+                if(number%2==0){
+    System.out.println("greate");
 
                 else{
                     System.out.println("odd");
