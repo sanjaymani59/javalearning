@@ -13,6 +13,7 @@ class data_type{
 
     int y =Integer.valueOf(x);
     System.out.println(y);
+    System.out.println(y)
 
 
 
