@@ -1,6 +1,7 @@
 public class cons {
     String name;
     int age;
+    int sam
 
 
     public cons(String name){
